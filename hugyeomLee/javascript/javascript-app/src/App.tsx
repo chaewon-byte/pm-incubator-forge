@@ -6,7 +6,7 @@ import { LogicalOperationExample } from './logical_operation/LogicalOperationExa
 import { CalcuationExample } from './math_operation/CalculationExample'
 import { ControlFlowSwitch } from './control_flow/ControlFlowSwitch'
 import { ControlFlowFor } from './control_flow/ControlFlowFor' 
-
+import { ControlFlowSummation } from './control_flow/ControlFlowForSummation' 
 function App() {
 
   return (
@@ -27,6 +27,7 @@ function App() {
         <FirstProblem/>
         <ControlFlowSwitch/>
         <ControlFlowFor/>
+        <ControlFlowSummation/>
 
       </div>
     </>

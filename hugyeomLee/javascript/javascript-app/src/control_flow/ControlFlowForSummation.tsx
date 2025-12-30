@@ -7,7 +7,7 @@ export const ControlFlowSummation = () => {
     }
 
     for (let i = 1; i <= 3; i++) {
-        summation += LoopResultArray[i]
+        summation += LoopResultArray[i - 1]
         // summation = summation + LoopResultArray[i]
     }
     return (
