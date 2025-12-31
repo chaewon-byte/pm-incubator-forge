@@ -11,6 +11,8 @@ import { FirstProblem } from './Problem/FirstProblem'
 import { SecondProblem } from './Problem/SecondProblem'
 import { MapExample } from './map/MapExample'
 import { MapReduceExample } from './map/MapReduceExample'
+import { MapFilterExample } from './map/MapFilterExample'
+import { ArraySliceExample } from './array/ArraySliceExample'
 
 function App() {
 
@@ -33,6 +35,8 @@ function App() {
         <SecondProblem/>
         <MapExample/>
         <MapReduceExample/>
+        <MapFilterExample/>
+        <ArraySliceExample/>
         </div>
     </>
   )
